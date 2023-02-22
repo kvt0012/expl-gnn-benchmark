@@ -1,7 +1,7 @@
-# A comparative study of question answering over knowledge bases
+# A comparative study of graph represention learning
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 	![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+
 - This repository is a implementation of the framework for a comparative study of question answering over knowledge bases.
 
 - In this work, we are also releasing a dataset for COVID-19. The dataset is provided in folder [COVID_data](https://github.com/tamlhp/kbqa/tree/main/data/COVID) in this repository. More details about dataset are provided below.
@@ -9,12 +9,12 @@
 <!-- <!-- *Paper*: []() -->
 #### Citation 
 ```
-@Article{Tran2021KBQA,
-  Title= {A comparative study of question answering over knowledge bases},
-  Author= {Khiem Vinh Tran, Hao Phu Phan, Khang Nguyen Duc Quach, Ngan Luu-Thuy Nguyen, Jun Jo, Thanh Tam Nguyen},
-  booktitle={Advanced Data Mining and Applications},
-  Year={2022},
-  Publisher={Springer International Publishing},
+@Article{Tran2023GNN,
+  Title= {A comparative study of explainable graph representation learning,
+  Author= {Khiem Vinh Tran, Hao Phu Phan, Zhao Ren, Quoc Viet Hung Nguyen, Thanh Tam Nguyen},
+  booktitle={},
+  Year={2023},
+  Publisher={},
 }
 ```
 # Framework
