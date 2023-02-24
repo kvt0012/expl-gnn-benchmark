@@ -18,30 +18,7 @@
 ```
 # Framework
 
-## Dataset format
 
-```json
-{
-  "id":"6",
-  "question":[ {
-         "language":"en",
-         "string":"Where is the first case in Vietnam?  ",
-         "keywords":"first case, COVID-19, Vietnam "
-      }, {
-         "language":"vi",
-         "string":"Truong hop ca nhiem COVID-19 dau tien cua Viet Nam la o dau?",
-         "keywords":"Ca nhiem dau tien, COVID-19, Viet Nam"
-      }],
-  "query":{
-      "sparql":"SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/COVID-19_pandemic_in_Vietnam> <http://dbpedia.org/property/firstCase> ?uri }"
-  },
-  "answers":[{"head":{"vars":["uri"]},
-         "results":{"bindings":[{"uri":{
-                     "type":"uri",
-                     "value":"http://dbpedia.org/resource/Ho_Chi_Minh_City"
-                  }}]}}
-  ]
-}
 ```
 
 ## Enviroment
